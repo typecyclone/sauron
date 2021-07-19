@@ -1,6 +1,7 @@
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "common-utils"
+  , "console"
   , "effect"
   , "node-buffer"
   , "node-child-process"

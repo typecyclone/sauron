@@ -3,7 +3,7 @@ let upstream =
 
 in upstream
   with common-utils =
-    { dependencies = [ "effect", "node-fs", "prelude", "node-process" ]
+    { dependencies = [ "effect", "node-fs", "prelude", "node-process", "easy-ffi" ]
     , repo = "https://github.com/rajatsharma/purescript-common-utils.git"
-    , version = "76f810ef8e7132e18fbaa2650d9391c6e6db4d9c"
+    , version = "e6be7d819dd1044087e3c59e63e1866bfdf33c60"
     }
