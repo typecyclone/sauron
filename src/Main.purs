@@ -11,7 +11,6 @@ import CommonUtils.Node.FileOps (addListener, createWatcher)
 
 main :: Effect Unit
 main = do
-  _ <- spawn "hs" [] defaultSpawnOptions
   watcher <- createWatcher "src"
   addListener watcher "change" ø
 
